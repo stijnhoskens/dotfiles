@@ -156,7 +156,7 @@ export SCM_CHECK=true
 # Load Bash It
 source "$BASH_IT"/bash_it.sh
 
-eval "$(oh-my-posh init bash --config ~/.poshthemes/froczh.omp.json)"
+eval "$(oh-my-posh init bash --config ~/.config/ohmyposh/theme.json)"
 
 for completion in ~/.bash_completions/*.sh; do
   source "$completion"
